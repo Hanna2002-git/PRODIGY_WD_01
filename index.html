@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <nav aria-label="Main Navigation" id = "navbar">
+            <div class="heading">.CoffeeHaven</div>
+            <span class="sideMenuButton" onclick="openNavbar()">&#9776;</span>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#dishes">Our Dishes</a></li>
+                <li><a href="#contact">About Us</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <!-- Side Navigation -->
+    <div class="sideNavigationBar" id="sideNavigationBar" aria-label="Side Navigation">
+        <a href="#" class="closeButton" onclick="closeNavbar()">&#x274C;</a>
+        <a href="#home">Home</a>
+        <a href="#dishes">Our Dishes</a>
+        <li><a href="#contact">About Us</a></li>
+ 
+    </div>
+
+    <main>
+        <!-- Home  -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Welcome to Coffee Haven</h1>
+                <p>Enjoy freshly brewed coffee, just the way you like it.</p>
+                <a href="#dishes" class="btn">A Cup of Joy, Just for You</a>
+            </div>
+        </section>
+
+        <!-- Dishes -->
+        <section class="dishes" id="dishes">
+            <div class="content">
+                <div class="title">
+                    <span>Coffee Dishes</span>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic">
+                            <a href="#" target="_blank">
+                                Cappuccino
+                            </a>
+                        </div>
+                        <p>
+                            Cappuccino is a classic coffee drink made with espresso, steamed milk, and topped with foam. It's perfect for those who enjoy a balance between the strength of coffee and the creaminess of milk.
+                            <br>Rs 160
+                        </p>
+                    </div>
+                    <div class="box">
+                        <div class="topic">
+                            <a href="#" target="_blank">
+                                Latte
+                            </a>
+                        </div>
+                        <p>
+                            A latte consists of espresso and steamed milk, with a small amount of foam on top. It's a creamy coffee drink loved by many for its smooth texture and mild coffee flavor.
+                            <br>Rs 150
+                        </p>
+                        
+                    </div>
+
+                    <div class="box">
+                        <div class="topic">
+                            <a href="#" target="_blank">
+                                Mocha
+                            </a>
+                        </div>
+                        <p>
+                            Mocha is a delicious fusion of coffee and chocolate. This coffee drink is perfect for those who want the richness of chocolate combined with the bold flavor of espresso.
+                            <br> Rs 170
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+
+        <section class="about" id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3><i class="fas fa-phone"></i>Phone</h3>
+                    <p>+1 (234) 567-8901</p>
+                </div>
+                <div class="contact-item">
+                    <h3><i class="fas fa-envelope"></i>Email</h3>
+                    <p><a href="mailto:contact@coffeehaven.com">contact@coffeehaven.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3><i class="fas fa-map-marker-alt"></i>Address</h3>
+                    <p>123 Brew Street,<br>Bean Town, CA 90001</p>
+                </div>
+            </div>
+        
+            <div class="reviews">
+                <h2>Why Customers Love Us??</h2>
+                <div class="review-boxes">
+                    <div class="review-box">
+                        <div class="reviewer-info">
+                            <h3>Emily R.</h3>
+                        </div>
+                        <p>
+                            "Coffee Haven is my go-to place for a relaxing afternoon. The cappuccino is divine, and the staff always makes me feel welcome. A truly cozy spot!"
+                        </p>
+                    </div>
+                    <div class="review-box">
+                        <div class="reviewer-info">
+                           <h3>Michael S.</h3>
+                        </div>
+                        <p>
+                            "Absolutely love the ambiance and the variety of coffee blends available. The mocha is my favorite, and the pastries are delicious. Highly recommend!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024 My Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

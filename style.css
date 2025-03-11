@@ -122,9 +122,17 @@ header nav ul li a:hover {
     background-image: url(images/home.png);
     background-size: cover;
     background-position: center;
-    padding-bottom: 60px;
-    color: #fff;
+    background-repeat: no-repeat;
+    width: 100%;
 }
+
+@media (max-width: 768px) {
+    .home {
+        background-size: contain; 
+        background-position: center;
+    }
+}
+
 
 .home-content h1 {
     font-family: 'Great Vibes', cursive;
@@ -193,7 +201,7 @@ html {
 .dishes .title span {
     font-size: 36px;
     font-weight: bold;
-    color: #6b4226;
+    color: white ;
 }
 
 .dishes .boxes {
